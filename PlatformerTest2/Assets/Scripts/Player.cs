@@ -45,6 +45,12 @@ public class Player : MonoBehaviour {
 		float targetVelocityX = input.x * moveSpeed;
 		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
 
+		if (controller.died == true) {
+			transform.position = new Vector3(-18, -11, 1);
+
+			controller.died = false;
+		}
+
 		if (velocity.x > 0.05 || velocity.x < -0.05) {
 			animator.SetBool ("Moving", true);
 		} 

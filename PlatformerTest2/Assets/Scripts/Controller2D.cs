@@ -10,6 +10,8 @@ public class Controller2D : RaycastController {
 	[HideInInspector]
 	public Vector2 playerInput;
 
+	[HideInInspector]
+	public bool died = false;
 	Animator animator;
 
 	public override void Start() {
@@ -73,6 +75,11 @@ public class Controller2D : RaycastController {
 
 			if (hit) {
 
+				if(hit.collider.tag == "Enemy")
+				{
+					died = true;
+				}
+
 				if (hit.distance == 0) {
 					continue;
 				}
@@ -121,6 +128,12 @@ public class Controller2D : RaycastController {
 			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.red);
 
 			if (hit) {
+
+				if(hit.collider.tag == "Enemy")
+				{
+					died = true;
+				}
+
 				if (hit.collider.tag == "Through") {
 					if (directionY == 1 || hit.distance == 0) {
 						continue;
