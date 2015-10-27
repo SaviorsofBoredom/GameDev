@@ -14,6 +14,14 @@ public class Weapon : MonoBehaviour {
     float timeToFire = 0;
     Transform firePoint;
 
+	float timeFired;
+	float currentTime;
+
+	void Start()
+	{
+		timeFired = Time.time;
+	}
+
 	void Awake ()
     {
         firePoint = transform.FindChild("FirePoint");
@@ -26,13 +34,19 @@ public class Weapon : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        if (fireRate == 0) //if single fire
-        {
-            if (Input.GetButtonDown("Fire1") || Input.GetKeyDown ("x"))
-            {
-                Shoot();
-            }
+		currentTime = Time.time;
 
+		if (fireRate == 0) //if single fire
+        {
+			if (currentTime >= timeFired + 1) {
+
+				if (Input.GetButtonDown("Fire1") || Input.GetKeyDown ("x"))
+				{
+					Shoot();
+					timeFired = Time.time;
+				}
+			
+			}
         }
         else //if not single fire
         {
@@ -57,11 +71,11 @@ public class Weapon : MonoBehaviour {
         }
         //Debug.DrawLine(firePointPosition, (mousePosition-firePointPosition)*100);
 
-        if(hit.collider != null)
+        if(hit.collider != null )
         {
             Debug.DrawLine(firePointPosition, hit.point, Color.red);
             Debug.Log("We hit " + hit.collider.name + " and did " + Damage + " damage.");
-            if(hit.collider.tag == "Enemy")
+			if(hit.collider.tag == "Enemy")
             {
                 Destroy(hit.collider.gameObject);
             }

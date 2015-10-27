@@ -11,7 +11,7 @@ public class Controller2D : RaycastController {
 	public Vector2 playerInput;
 
 	[HideInInspector]
-	public bool died = false;
+	public bool damaged = false;
 	Animator animator;
 
 	public override void Start() {
@@ -73,11 +73,11 @@ public class Controller2D : RaycastController {
 
 			Debug.DrawRay(rayOrigin, Vector2.right * directionX * rayLength,Color.red);
 
-			if (hit) {
+			if (hit && hit.collider.isTrigger == false) {
 
 				if(hit.collider.tag == "Enemy")
 				{
-					died = true;
+					damaged = true;
 				}
 
 				if (hit.distance == 0) {
@@ -127,11 +127,11 @@ public class Controller2D : RaycastController {
 
 			Debug.DrawRay(rayOrigin, Vector2.up * directionY * rayLength,Color.red);
 
-			if (hit) {
+			if (hit && hit.collider.isTrigger == false) {
 
 				if(hit.collider.tag == "Enemy")
 				{
-					died = true;
+					damaged = true;
 				}
 
 				if (hit.collider.tag == "Through") {
