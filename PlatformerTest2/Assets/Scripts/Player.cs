@@ -25,12 +25,36 @@ public class Player : MonoBehaviour {
 	Vector3 velocity;
 	float velocityXSmoothing;
 
+	int direction;
+	float _posX;
+	float someScale;
+
+	int maxHealth;
+	public int currentHealth;
+
+	float timeHit;
+	float currentTime;
+	float invincibilityTime;
+
+
 	Controller2D controller;
 	Animator animator;
 
 	void Start() {
 		controller = GetComponent<Controller2D> ();
 		animator = GetComponent<Animator> ();
+
+		maxHealth = 5;
+		currentHealth = maxHealth;
+		Debug.Log("Current Health: " + currentHealth);
+
+		timeHit = Time.time;
+		currentTime = Time.time;
+		invincibilityTime = 1;
+
+		direction = 1;
+		_posX = transform.position.x;
+		someScale = transform.localScale.x;
 
 		gravity = -(2 * maxJumpHeight) / Mathf.Pow (timeToJumpApex, 2);
 		maxJumpVelocity = Mathf.Abs(gravity) * timeToJumpApex;
@@ -39,17 +63,44 @@ public class Player : MonoBehaviour {
 	}
 
 	void Update() {
+		currentTime = Time.time;
+
 		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
 		int wallDirX = (controller.collisions.left) ? -1 : 1;
 
 		float targetVelocityX = input.x * moveSpeed;
 		velocity.x = Mathf.SmoothDamp (velocity.x, targetVelocityX, ref velocityXSmoothing, (controller.collisions.below)?accelerationTimeGrounded:accelerationTimeAirborne);
 
-		if (controller.died == true) {
-			transform.position = new Vector3(-18, -11, 1);
+		if (velocity.x >= 0)
+		{
+			//Debug.Log("Moving right " + velocity.x);
+			transform.localScale = new Vector2(someScale, transform.localScale.y);		}
 
-			controller.died = false;
+		else
+		{
+			//Debug.Log("Moving left " + velocity.x);
+			transform.localScale = new Vector2(-someScale, transform.localScale.y);
+		}		
+
+
+		if (currentHealth == 0) {
+			controller.damaged = false;
+			transform.position = new Vector3(-18, -11, 1);
+			currentHealth = maxHealth;
 		}
+
+		if (controller.damaged == true && currentTime >= timeHit + invincibilityTime) {
+
+			timeHit = Time.time;
+
+			currentHealth = currentHealth-1;
+
+			controller.damaged = false;
+
+			Debug.Log("Current Health: " + currentHealth);
+		}
+		controller.damaged = false;
+
 
 		if (velocity.x > 0.05 || velocity.x < -0.05) {
 			animator.SetBool ("Moving", true);
