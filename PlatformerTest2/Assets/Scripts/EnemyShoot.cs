@@ -80,7 +80,7 @@ public class EnemyShoot : MonoBehaviour {
 				//Destroy(hit.collider.gameObject);
 				playerGameObj = GameObject.Find("Player");
 				player = playerGameObj.GetComponent<Player>();
-				player.currentHealth -= 1;
+				player.DecreaseHealth(Damage);
 			}
 		}
 	}

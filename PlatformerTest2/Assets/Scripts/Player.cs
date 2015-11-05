@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent (typeof (Controller2D))]
@@ -29,8 +30,8 @@ public class Player : MonoBehaviour {
 	float _posX;
 	float someScale;
 
-	int maxHealth;
-	public int currentHealth;
+	public float maxHealth;
+	public float currentHealth;
 
 	float timeHit;
 	float currentTime;
@@ -40,11 +41,15 @@ public class Player : MonoBehaviour {
 	Controller2D controller;
 	Animator animator;
 
+	public GameObject healthBar;
+
+	public Text currentHealthText;
+	public Text maxHealthText;
+
 	void Start() {
 		controller = GetComponent<Controller2D> ();
 		animator = GetComponent<Animator> ();
 
-		maxHealth = 5;
 		currentHealth = maxHealth;
 		Debug.Log("Current Health: " + currentHealth);
 
@@ -63,6 +68,9 @@ public class Player : MonoBehaviour {
 	}
 
 	void Update() {
+		currentHealthText.text = "Current Health: " + currentHealth.ToString();
+		maxHealthText.text = "Max Health: " + maxHealth.ToString();
+
 		currentTime = Time.time;
 
 		Vector2 input = new Vector2 (Input.GetAxisRaw ("Horizontal"), Input.GetAxisRaw ("Vertical"));
@@ -84,11 +92,12 @@ public class Player : MonoBehaviour {
 
 
 		if (currentHealth == 0) {
-			controller.damaged = false;
 			transform.position = new Vector3(-18, -11, 1);
 			currentHealth = maxHealth;
+			SetHealthBar(currentHealth/maxHealth);
 		}
 
+		/*
 		if (controller.damaged == true && currentTime >= timeHit + invincibilityTime) {
 
 			timeHit = Time.time;
@@ -100,6 +109,7 @@ public class Player : MonoBehaviour {
 			Debug.Log("Current Health: " + currentHealth);
 		}
 		controller.damaged = false;
+		*/
 
 
 		if (velocity.x > 0.05 || velocity.x < -0.05) {
@@ -176,5 +186,26 @@ public class Player : MonoBehaviour {
 			velocity.y = 0;
 		}
 
+	}
+
+	public void DecreaseHealth(float damage)
+	{
+		if (currentTime >= timeHit + invincibilityTime) {
+			
+			timeHit = Time.time;
+			
+			currentHealth = currentHealth-damage;
+
+			float calcHealth = currentHealth/maxHealth;
+			
+			Debug.Log("Current Health: " + currentHealth);
+
+			SetHealthBar(calcHealth);
+		}
+	}
+
+	public void SetHealthBar(float healthPercent)
+	{
+		healthBar.transform.localScale = new Vector3 (healthPercent, healthBar.transform.localScale.y, healthBar.transform.localScale.y);
 	}
 }

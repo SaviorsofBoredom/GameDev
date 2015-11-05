@@ -14,10 +14,15 @@ public class Controller2D : RaycastController {
 	public bool damaged = false;
 	Animator animator;
 
+	Player player;
+	GameObject playerGameObj;
+
 	public override void Start() {
 		base.Start ();
 		collisions.faceDir = 1;
 		animator = GetComponent<Animator>();
+		playerGameObj = GameObject.Find("Player");
+		player = playerGameObj.GetComponent<Player>();
 	}
 	
 	public void Move(Vector3 velocity, bool standingOnPlatform) {
@@ -77,7 +82,7 @@ public class Controller2D : RaycastController {
 
 				if(hit.collider.tag == "Enemy")
 				{
-					damaged = true;
+					player.DecreaseHealth(1);
 				}
 
 				if (hit.distance == 0) {
@@ -131,7 +136,7 @@ public class Controller2D : RaycastController {
 
 				if(hit.collider.tag == "Enemy")
 				{
-					damaged = true;
+					player.DecreaseHealth(1);
 				}
 
 				if (hit.collider.tag == "Through") {
