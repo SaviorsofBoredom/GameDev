@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 8554f7a7cf508a8429889e8e94571e10
+timeCreated: 1447121258
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TowerContainerConveyorSawMonkeys_0
+    21300002: TowerContainerConveyorSawMonkeys_1
+    21300004: TowerContainerConveyorSawMonkeys_2
+    21300006: TowerContainerConveyorSawMonkeys_3
+    21300008: TowerContainerConveyorSawMonkeys_4
+    21300010: TowerContainerConveyorSawMonkeys_5
+    21300012: TowerContainerConveyorSawMonkeys_6
+    21300014: TowerContainerConveyorSawMonkeys_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TowerContainerConveyorSawMonkeys_0
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 2769
+        width: 1308
+        height: 728
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerContainerConveyorSawMonkeys_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2302
+        width: 1171
+        height: 195
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerContainerConveyorSawMonkeys_2
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1899
+        width: 403
+        height: 385
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerContainerConveyorSawMonkeys_3
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 1858
+        width: 530
+        height: 1083
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerContainerConveyorSawMonkeys_4
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 2586
+        width: 530
+        height: 361
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerContainerConveyorSawMonkeys_5
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1858
+        width: 524
+        height: 728
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerContainerConveyorSawMonkeys_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 2781
+        width: 710
+        height: 728
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerContainerConveyorSawMonkeys_7
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 2763
+        width: 598
+        height: 746
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
