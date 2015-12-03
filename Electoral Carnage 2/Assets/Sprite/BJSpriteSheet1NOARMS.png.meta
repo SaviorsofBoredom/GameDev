@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: cab3aa596a0168c4b92200544ff9750e
+timeCreated: 1447801644
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BJSpriteSheet1NOARMS_0
+    21300002: BJSpriteSheet1NOARMS_1
+    21300004: BJSpriteSheet1NOARMS_2
+    21300006: BJSpriteSheet1NOARMS_3
+    21300008: BJSpriteSheet1NOARMS_4
+    21300010: BJSpriteSheet1NOARMS_5
+    21300012: BJSpriteSheet1NOARMS_6
+    21300014: BJSpriteSheet1NOARMS_7
+    21300016: BJSpriteSheet1NOARMS_8
+    21300018: BJSpriteSheet1NOARMS_9
+    21300020: BJSpriteSheet1NOARMS_10
+    21300022: BJSpriteSheet1NOARMS_11
+    21300024: BJSpriteSheet1NOARMS_12
+    21300026: BJSpriteSheet1NOARMS_13
+    21300028: BJSpriteSheet1NOARMS_14
+    21300030: BJSpriteSheet1NOARMS_15
+    21300032: BJSpriteSheet1NOARMS_16
+    21300034: BJSpriteSheet1NOARMS_17
+    21300036: BJSpriteSheet1NOARMS_18
+    21300038: BJSpriteSheet1NOARMS_19
+    21300040: BJSpriteSheet1NOARMS_20
+    21300042: BJSpriteSheet1NOARMS_21
+    21300044: BJSpriteSheet1NOARMS_22
+    21300046: BJSpriteSheet1NOARMS_23
+    21300048: BJSpriteSheet1NOARMS_24
+    21300050: BJSpriteSheet1NOARMS_25
+    21300052: BJSpriteSheet1NOARMS_26
+    21300054: BJSpriteSheet1NOARMS_27
+    21300056: BJSpriteSheet1NOARMS_28
+    21300058: BJSpriteSheet1NOARMS_29
+    21300060: BJSpriteSheet1NOARMS_30
+    21300062: BJSpriteSheet1NOARMS_31
+    21300064: BJSpriteSheet1NOARMS_32
+    21300066: BJSpriteSheet1NOARMS_33
+    21300068: BJSpriteSheet1NOARMS_34
+    21300070: BJSpriteSheet1NOARMS_35
+    21300072: BJSpriteSheet1NOARMS_36
+    21300074: BJSpriteSheet1NOARMS_37
+    21300076: BJSpriteSheet1NOARMS_38
+    21300078: BJSpriteSheet1NOARMS_39
+    21300080: BJSpriteSheet1NOARMS_40
+    21300082: BJSpriteSheet1NOARMS_41
+    21300084: BJSpriteSheet1NOARMS_42
+    21300086: BJSpriteSheet1NOARMS_43
+    21300088: BJSpriteSheet1NOARMS_44
+    21300090: BJSpriteSheet1NOARMS_45
+    21300092: BJSpriteSheet1NOARMS_46
+    21300094: BJSpriteSheet1NOARMS_47
+    21300096: BJSpriteSheet1NOARMS_48
+    21300098: BJSpriteSheet1NOARMS_49
+    21300100: BJSpriteSheet1NOARMS_50
+    21300102: BJSpriteSheet1NOARMS_51
+    21300104: BJSpriteSheet1NOARMS_52
+    21300106: BJSpriteSheet1NOARMS_53
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: BJSpriteSheet1NOARMS_2
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 1149
+        width: 267
+        height: 502
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_3
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1151
+        width: 294
+        height: 500
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1151
+        width: 262
+        height: 478
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1152
+        width: 281
+        height: 479
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_6
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1152
+        width: 263
+        height: 479
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_8
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1147
+        width: 277
+        height: 479
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 252
+        height: 511
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 577
+        width: 297
+        height: 507
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_17
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 583
+        width: 243
+        height: 505
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_19
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 578
+        width: 286
+        height: 496
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_21
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 579
+        width: 285
+        height: 492
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_23
+      rect:
+        serializedVersion: 2
+        x: 2187
+        y: 579
+        width: 307
+        height: 486
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_39
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 4
+        width: 264
+        height: 501
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_40
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 3
+        width: 240
+        height: 505
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_43
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 4
+        width: 269
+        height: 509
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_44
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 4
+        width: 287
+        height: 513
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_45
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 0
+        width: 355
+        height: 518
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_52
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 158
+        width: 190
+        height: 222
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BJSpriteSheet1NOARMS_0
+      rect:
+        serializedVersion: 2
+        x: 1758
+        y: 0
+        width: 361
+        height: 525
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

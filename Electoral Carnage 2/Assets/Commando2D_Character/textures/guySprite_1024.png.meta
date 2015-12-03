@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 78b2da80050b35f4cb10b705f5c2eeed
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guySprite_1024_0
+    21300002: guySprite_1024_1
+    21300004: guySprite_1024_2
+    21300006: guySprite_1024_3
+    21300008: guySprite_1024_4
+    21300010: guySprite_1024_5
+    21300012: guySprite_1024_6
+    21300014: guySprite_1024_7
+    21300016: guySprite_1024_8
+    21300018: guySprite_1024_9
+    21300020: guySprite_1024_10
+    21300022: guySprite_1024_11
+    21300024: guySprite_1024_12
+    21300026: guySprite_1024_13
+    21300028: guySprite_1024_14
+    21300030: guySprite_1024_15
+    21300032: guySprite_1024_16
+    21300034: guySprite_1024_17
+    21300036: guySprite_1024_18
+    21300038: guySprite_1024_19
+    21300040: guySprite_1024_20
+    21300042: guySprite_1024_21
+    21300044: guySprite_1024_22
+    21300046: guySprite_1024_23
+    21300048: guySprite_1024_24
+    21300050: guySprite_1024_25
+    21300052: guySprite_1024_26
+    21300054: guySprite_1024_27
+    21300056: guySprite_1024_28
+    21300058: guySprite_1024_29
+    21300060: guySprite_1024_30
+    21300062: guySprite_1024_31
+    21300064: guySprite_1024_32
+    21300066: guySprite_1024_33
+    21300068: guySprite_1024_34
+    21300070: guySprite_1024_35
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guySprite_1024_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 900
+        width: 111
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 901
+        width: 112
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 900
+        width: 111
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 900
+        width: 121
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_4
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 900
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 900
+        width: 121
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_6
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 900
+        width: 104
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_7
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 900
+        width: 105
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 775
+        width: 106
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 776
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_10
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 776
+        width: 107
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_11
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 776
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_12
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 775
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_13
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 775
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_14
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 775
+        width: 111
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_15
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 775
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 644
+        width: 119
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_17
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 648
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 651
+        width: 104
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_19
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 651
+        width: 104
+        height: 118
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_20
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 648
+        width: 104
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_21
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 656
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_22
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 656
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_23
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 656
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_24
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 526
+        width: 91
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_25
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 526
+        width: 91
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_26
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 526
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_27
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 526
+        width: 101
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_28
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 526
+        width: 101
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_29
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 526
+        width: 101
+        height: 121
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_30
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 526
+        width: 102
+        height: 115
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_31
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 524
+        width: 102
+        height: 117
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_32
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 400
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_33
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 400
+        width: 101
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 400
+        width: 101
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guySprite_1024_35
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 400
+        width: 102
+        height: 116
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
