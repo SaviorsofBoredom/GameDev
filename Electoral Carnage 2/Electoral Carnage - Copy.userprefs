@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\HelicopterLandingIntro.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Mission.cs" Line="11" Column="27" />
+      <File FileName="Assets\Scripts\TitleScreen.cs" Line="12" Column="27" />
+      <File FileName="Assets\Scripts\Opening.cs" Line="11" Column="27" />
+      <File FileName="Assets\Scripts\UFOIntro.cs" Line="11" Column="27" />
+      <File FileName="Assets\Scripts\HelicopterLandingIntro.cs" Line="11" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

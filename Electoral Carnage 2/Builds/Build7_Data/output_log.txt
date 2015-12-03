@@ -1,0 +1,78 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.119 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build7_Data\Managed\System.dll (this message is harmless)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.476212 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 157.
+Total: 0.168727 ms (FindLiveObjects: 0.027094 ms CreateObjectMapping: 0.016421 ms MarkObjects: 0.112074 ms  DeleteObjects: 0.012315 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.348128 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 157.
+Total: 0.207727 ms (FindLiveObjects: 0.058295 ms CreateObjectMapping: 0.016831 ms MarkObjects: 0.118232 ms  DeleteObjects: 0.011905 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.339096 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 157.
+Total: 0.168727 ms (FindLiveObjects: 0.021347 ms CreateObjectMapping: 0.016010 ms MarkObjects: 0.117821 ms  DeleteObjects: 0.012726 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1715)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.341970 ms
+IndexOutOfRangeException: Array index is out of range.
+  at EnemyShoot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at EnemyShoot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1353.
+Total: 0.448707 ms (FindLiveObjects: 0.094421 ms CreateObjectMapping: 0.028326 ms MarkObjects: 0.313233 ms  DeleteObjects: 0.011905 ms)
+
+Current Health: 30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+IndexOutOfRangeException: Array index is out of range.
+  at MIB.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at MIB.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

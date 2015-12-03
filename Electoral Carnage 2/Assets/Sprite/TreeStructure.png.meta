@@ -1,0 +1,99 @@
+fileFormatVersion: 2
+guid: 3d722cae5a8c7c740907460791ea9294
+timeCreated: 1447092279
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: TreeStructure_0
+    21300002: TreeStructure_1
+    21300004: TreeStructure_2
+    21300006: TreeStructure_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: TreeStructure_0
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 271
+        width: 989
+        height: 2279
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TreeStructure_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 585
+        width: 902
+        height: 1965
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TreeStructure_2
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 615
+        width: 795
+        height: 1870
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TreeStructure_3
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 1436
+        width: 589
+        height: 1036
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,60 @@
+Initialize engine version: 5.1.3f1 (b0a23b31c3d8)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 4000 (ID=0x166)
+    Vendor:   Intel
+    VRAM:     128 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.252 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Benjamin\Documents\GameDev-master November 19\Electoral Carnage - Copy\Builds\Build4_Data\Managed\System.dll (this message is harmless)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.552571 ms
+IndexOutOfRangeException: Array index is out of range.
+  at EnemyShoot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at EnemyShoot.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1350.
+Total: 0.468412 ms (FindLiveObjects: 0.087032 ms CreateObjectMapping: 0.031610 ms MarkObjects: 0.336633 ms  DeleteObjects: 0.011905 ms)
+
+Current Health: 30
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+IndexOutOfRangeException: Array index is out of range.
+  at MIB.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+IndexOutOfRangeException: Array index is out of range.
+  at MIB.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
